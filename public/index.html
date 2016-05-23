@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='pirates'>
   <head>
     <meta charset="utf-8">
     <title>Pirates!</title>
@@ -24,8 +24,15 @@
       </div>
     </nav>
 
+    <div ng-view>
+    </div>
+
+
+
 
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js"></script>
+    <script src='./javascripts/app.js'></script>
+    <script src='./javascripts/controllers/pirates.controller.js'></script>
   </body>
 </html>
