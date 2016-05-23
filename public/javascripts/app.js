@@ -5,7 +5,7 @@
     .module('pirates', ['ngRoute'])
     .config(function($routeProvider, $locationProvider) {
       $routeProvider.when('/', {
-        templateUrl: '../views/showController.html',
+        templateUrl: '../views/pirates.html',
         controller: 'PiratesController'
       })
     })
